@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Environment files
+.env
+.env.local
+
+# IDE
+.vscode
+.idea
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Model downloads and cache
+models/
+cache/
+downloads/
+
+# Uploads and temp files
+uploads/
+temp/
+
+# Jupyter notebooks
+*.ipynb
+.ipynb_checkpoints/

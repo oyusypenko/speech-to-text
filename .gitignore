@@ -1,0 +1,129 @@
+# ================================
+# Speech-to-Text Project .gitignore
+# ================================
+
+# Dependencies
+node_modules/
+*/node_modules/
+**/node_modules/
+package-lock.json
+*/package-lock.json
+**/package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.pnp
+.pnp.js
+.npm
+.yarn-integrity
+
+# Environment variables
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Build outputs
+dist/
+*/dist/
+**/dist/
+build/
+*/build/
+**/build/
+.next/
+*/.next/
+**/.next/
+out/
+*/out/
+**/out/
+.nuxt
+.cache/
+.parcel-cache
+*.tsbuildinfo
+
+# Logs
+logs/
+*/logs/
+**/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Testing & Coverage
+coverage/
+*/coverage/
+**/coverage/
+*.lcov
+.nyc_output
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Cache files
+.eslintcache
+*/.eslintcache
+**/.eslintcache
+.prettiercache
+*/.prettiercache
+**/.prettiercache
+
+# Upload and temp directories
+uploads/
+*/uploads/
+**/uploads/
+temp/
+*/temp/
+**/temp/
+*.tmp
+*.temp
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+db.sqlite3
+
+# Docker volumes
+postgres_data/
+redis_data/
+whisper_models/
+
+# IDE files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.history/
+
+# OS generated files
+.DS_Store
+*/.DS_Store
+**/.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+
+# Python (for WhisperX service)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Serverless
+.serverless/

@@ -1,0 +1,1 @@
+[TEST MODE] Mock transcription for file 09625610-abc6-451a-9997-093bee7d281f.mp4. Model: base, Language: auto. In production with GPU, this would contain actual transcribed text.
